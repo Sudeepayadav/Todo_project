@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.App{
+    text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background-color:#EFDCC6 ;
+    
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-wrapper{
+    background-color: gray;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+    padding-bottom: 25%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header{
+    color: white;
+   font-style:italic;
+   font-weight: bolder;
+   margin-top: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.cont{
+    text-align: center;
+    justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.task-complete{
+    text-align: right;
+    color: #f67280;
+    background-color:gray ;
+    border: none;
+    font-size: 24px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.task-edit{
+    text-align: right;
+    color: #f6be00;
+    background-color:gray ;
+    border: none;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.task-delete{
+    text-align: right;
+    color: black;
+    background-color:gray ;
+    border: none;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.task-input{
+   border-radius: 6px;
+   padding: 7px;
+   font-size: 18px;
+   border: none;
+   background-color: black;
+   color: white;
+   /* margin-bottom: 2px; */
+}
+.button-add{
+    border-radius: 6px;
+    background-color: #EFDCC6 ;
+    padding: 6px;
+    font-size: 18px;
+    margin-left: 10px;
+  border: 1px solid dimgray;
+}
+.list{
+    font-size: 18px;
+    padding: 6px;
+    background-color:gray ;
+    color: white;
+    border-radius: 8px;
+    margin-top: 6px;
+    border: 1px solid black;
+    text-decoration: none;
 }
